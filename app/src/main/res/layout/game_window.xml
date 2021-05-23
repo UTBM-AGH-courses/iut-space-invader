@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackground"
+        android:id="@+id/frameLayout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background"/>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:translationZ="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_white"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="10sp">
+
+
+            <TextView
+                android:id="@+id/vieText"
+                android:text="@string/lifeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:textStyle="bold|italic"/>
+
+            <TextView
+                android:id="@+id/scoreText"
+                android:textColor="@color/colorPrimary"
+                android:text="@string/scoreText"
+                android:textSize="20sp"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold|italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/pauseButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/rounded_primary"
+                android:layout_marginLeft="50dp"
+                android:elevation="5sp"
+                android:text="@string/pauseText"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

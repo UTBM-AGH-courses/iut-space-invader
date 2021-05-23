@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Space Invader</string>
+    <string name="welcome_text">Welcome !</string>
+    <string name="play_text">PLAY</string>
+    <string name="add_player_text">ADD PLAYER</string>
+    <string name="quit_text">Quit</string>
+    <string name="high_score_text">BEST SCORE </string>
+    <string name="easy_text">EASY</string>
+    <string name="normal_text">NORMAL</string>
+    <string name="hard_text">HARD</string>
+    <string name="difficulty_text">Difficuty :</string>
+    <string name="adding_title">Add</string>
+    <string name="pauseText">PAUSE</string>
+    <string name="resumeText">RESUME</string>
+    <string name="lifeText">Lifes : %d</string>
+    <string name="scoreText" >Score : %d</string>
+    <string name="credit">LIVET GUILLAUME and REVERSAT VALENTIN</string>
+
+</resources>
